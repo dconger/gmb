@@ -25,7 +25,7 @@ defmodule Gmb.MixProject do
     [
       {:credo, "~> 0.8", only: [:dev, :test]},
       {:excoveralls, "~> 0.10", only: :test},
-      {:httpoison, "~> 0.13"},
+      {:httpoison, "~> 1.5.1"},
       {:jason, "~> 1.0"},
       {:mockery, "~> 2.1", runtime: false},
       {:mulligan, "~> 0.1.1", organization: "podium"},
