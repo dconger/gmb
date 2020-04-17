@@ -1,0 +1,205 @@
+{
+    "locationMetrics": [
+        {
+            "locationName": "accounts/103644375082308816547/locations/15051991236423709474",
+            "timeZone": "America/New_York",
+            "metricValues": [
+                {
+                    "metric": "QUERIES_DIRECT",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "14"
+                        }
+                    ]
+                },
+                {
+                    "metric": "QUERIES_INDIRECT",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "528"
+                        }
+                    ]
+                },
+                {
+                    "metric": "QUERIES_CHAIN",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "2"
+                        }
+                    ]
+                },
+                {
+                    "metric": "VIEWS_MAPS",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "157"
+                        }
+                    ]
+                },
+                {
+                    "metric": "VIEWS_SEARCH",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "420"
+                        }
+                    ]
+                },
+                {
+                    "metric": "ACTIONS_WEBSITE",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "11"
+                        }
+                    ]
+                },
+                {
+                    "metric": "ACTIONS_PHONE",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "65"
+                        }
+                    ]
+                },
+                {
+                    "metric": "ACTIONS_DRIVING_DIRECTIONS",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "2"
+                        }
+                    ]
+                },
+                {
+                    "metric": "PHOTOS_VIEWS_MERCHANT",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "4064"
+                        }
+                    ]
+                },
+                {
+                    "metric": "PHOTOS_VIEWS_CUSTOMERS",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "0"
+                        }
+                    ]
+                },
+                {
+                    "metric": "PHOTOS_COUNT_MERCHANT",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "6"
+                        }
+                    ]
+                },
+                {
+                    "metric": "PHOTOS_COUNT_CUSTOMERS",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "0"
+                        }
+                    ]
+                },
+                {
+                    "metric": "LOCAL_POST_VIEWS_SEARCH",
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "0"
+                        }
+                    ]
+                },
+                {
+                    "dimensionalValues": [
+                        {
+                            "metricOption": "AGGREGATED_DAILY",
+                            "timeDimension": {
+                                "timeRange": {
+                                    "startTime": "2020-03-24T04:00:00Z"
+                                }
+                            },
+                            "value": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
