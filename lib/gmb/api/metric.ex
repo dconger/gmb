@@ -26,7 +26,7 @@ defmodule Gmb.Api.Metric do
     rescue_exceptions: [ResponseParseError]
   ]
 
-  @spec fetch(Types.account_id(), Types.token(), list(), Types.date(), Types.date()) :: {:ok | :error, any()}
+  @spec fetch(Types.account_id(), Types.token(), list(), Types.date(), Types.date()) :: {:ok | :error, Gmb.ReportInsight.t()}
   def fetch(account_id, token, location_names, start_time, end_time) do
     result =
       Mulligan.retry(
