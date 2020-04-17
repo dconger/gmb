@@ -33,6 +33,7 @@ defmodule Gmb.Location do
     :address,
     :primary_category,
     :additional_categories,
+    :website_url,
     :regular_hours,
     :labels,
   ]
