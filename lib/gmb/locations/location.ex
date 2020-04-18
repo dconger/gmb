@@ -17,9 +17,16 @@ defmodule Gmb.Location do
     additional_categories: list(map()),
     website_url: String.t(),
     regular_hours: map(),
-    labels: list(
-      String.t()
-    )
+    labels: list(String.t()),
+    ad_words_location_extensions: map(),
+    latlng: map(),
+    open_info: map(),
+    location_state: map(),
+    attributes: list(map()),
+    metadata: map(),
+    price_lists: list(map()),
+    profile: map(),
+    relationship_data: map()
   }
 
 
@@ -36,5 +43,14 @@ defmodule Gmb.Location do
     :website_url,
     :regular_hours,
     :labels,
+    :ad_words_location_extensions,
+    :latlng,
+    :open_info,
+    :location_state,
+    :attributes,
+    :metadata,
+    :price_lists,
+    :profile,
+    :relationship_data
   ]
 end
