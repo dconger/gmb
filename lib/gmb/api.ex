@@ -30,10 +30,35 @@ defmodule Gmb.Api do
         {:ok, response}
 
       {:error, _error} ->
-        raise ResponseParseError,
-          message: "Attempted to parse the following response body:\n#{body}"
+        {:error, %ResponseParseError{message: "Attempted to parse the following response body:\n#{body}"}}
     end
   end
 
   def process_response_headers(headers), do: Map.new(headers)
+
+  @doc """
+  Convert HTTP error codes to error tuples
+  """
+  def handle_response({:ok, %HTTPoison.Response{status_code: code} = response})
+      when code >= 200 and code < 300 do
+    {:ok, response}
+  end
+
+  def handle_response({:ok, %HTTPoison.Response{status_code: code} = response})
+      when code >= 300 do
+    Logger.error("HTTP Error. status_code: #{inspect(code)}")
+    {:error, response}
+  end
+
+  def handle_response({:error, _} = response), do: response
+
+  def handle_response({status, details}) do
+    Logger.error("Unhandled HTTP Error. status: #{inspect(status)}. details: #{inspect(details)}")
+    {:error, :unknown}
+  end
+
+  def handle_response(error) do
+    Logger.error("Unhandled HTTP Error. response: #{inspect(error)}.")
+    {:error, :unknown}
+  end
 end

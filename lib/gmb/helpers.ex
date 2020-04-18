@@ -3,6 +3,9 @@ defmodule Gmb.Helpers do
   Functions to transform maps
   """
 
+  @spec ok(any()) :: {:ok, any()}
+  def ok(item), do: {:ok, item}
+  
   @doc """
   Convert map to struct of some type
   """

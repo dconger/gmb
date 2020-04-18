@@ -1,4 +1,4 @@
-defmodule GmbApiMock do
+defmodule Gmb.ApiMock do
   @moduledoc false
 
   alias HTTPoison.{Error, Response}
